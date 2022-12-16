@@ -1,0 +1,25 @@
+html {    
+    height: 100%;
+    background: -webkit-gradient(linear,left bottom,left top,color-stop(20%,#4383c3),color-stop(90%,#30b4cb));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item-container {
+    text-align: center;
+}
+
+#aiChoice, #game-message, #myChoice, #play-again {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+#play-again {
+    cursor: pointer;
+    position: absolute;
+    float: right;
+    bottom: 500px;
+    right: 50px;
+    height: 50px;
+}
